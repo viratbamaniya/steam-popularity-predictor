@@ -26,7 +26,6 @@ The dataset comes from **[SteamSpy](https://steamspy.com/api.php)** — a third-
 
 Key EDA steps:
 - Checked distributions, boxplots, scatterplots for price, reviews, owners.
-- Removed outliers in reviews and owners using quantiles (95%).
 - Created `owners_est` as numeric lower bound from `owners` range.
 - Applied `log` transforms to reviews and playtime for better scale handling.
 - Labeled games as **Popular** if they have at least 10 million estimated owners.
